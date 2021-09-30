@@ -10,3 +10,56 @@ body {
 }
 
 /* Add styles here! */
+body {
+  background-color: hsl(0deg 0% 60%);
+}
+
+header {
+  background-color: hsl(0deg 0% 100%);
+
+  border-bottom: 8px solid hsl(0deg 0% 40%);
+}
+
+main {
+  margin-top: 64px;
+}
+
+strong {
+  color: hsl(160deg 100% 30%);
+}
+
+.card {
+  background-color: hsl(0 0% 100%);
+  border-bottom: 8px solid hsl(0deg 0% 40%);
+  font-size: 1.25rem;
+  padding: 16px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg 100% 50%);
+  border-bottom: 8px solid hsl(45deg 100% 40%);
+  font-size: 1.5rem;
+  padding: 16px 32px;
+  /** Using logical properties like this allows this layout to work with RTL languages as well! */
+  margin-inline-start: -32px;
+  margin-block-start: -8px;
+  width: fit-content;
+}
+
+
+.intro-chunk {
+  font-size: 1.5rem;
+  padding: 32px 16px;
+  max-width: 400px;
+}
+
+.max-width-wrapper {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  max-width: 700px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-block-end: 32px;
+}
